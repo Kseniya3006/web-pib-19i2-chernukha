@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Онлайн-библиотека</title>
 	<link rel="stylesheet" href="Style.css">
-    <script src="JS.js"></script>
+    <script src="JS1.js"></script>
 	<style>
 		body {
 			background: url(10.jpg) repeat;
@@ -18,13 +18,21 @@
 	</header>
 	<nav>
 		<div id='text_clock'>Местное время:</div>
-		<div id='clock'></div> <br>
+		<div id='clock'></div><br>
+		
 		<img src="https://img.icons8.com/dusk/64/000000/home.png" alt=" "></br>
 		<button onclick="window.location.href  = 'HomePage.html'">Главная страница</button></br>
 		<img src="https://img.icons8.com/dusk/64/000000/book-shelf.png" alt=" "></br>
 		<button onclick="window.location.href = 'Books.html';">Книги</button></br>
 		<img src="https://img.icons8.com/dusk/64/000000/homer-simpson--v1.png" alt=" "></br>
 		<button onclick="window.location.href  = 'Author.html';">Страница об авторе</button></br>
+		
+		<img src="https://img.icons8.com/dusk/64/000000/checked-2--v1.png" alt=" "></br>
+		<button onclick="myFunction()">Я на сайте!)</button>
+		<div id="snackbar">Спасибо за выбор нашей библиотеки:)</div>
+		<div class="slide_container">
+			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+		</div>
 	</nav>
 	<content>
 		<h1>Добро пожаловать в онлайн-библиотеку!</h1>
